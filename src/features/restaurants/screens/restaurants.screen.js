@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components/native";
 import {
   SafeAreaView,
   StatusBar,
@@ -10,7 +11,7 @@ import {
 import { Searchbar } from "react-native-paper";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 
-import { RestaurantInfo } from "../components/restaurant-info.component";
+import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 
 const isAndroid = Platform.OS === "android";
 
@@ -21,7 +22,7 @@ export const RestaurantsScreen = () => {
         <Searchbar />
       </View>
       <View style={styles.list}>
-        <RestaurantInfo />
+        <RestaurantInfoCard />
       </View>
     </SafeAreaView>
   );
