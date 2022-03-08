@@ -10,6 +10,8 @@ import {
 import { Searchbar } from "react-native-paper";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 
+import { RestaurantInfo } from "../components/restaurant-info.component";
+
 const isAndroid = Platform.OS === "android";
 
 export const RestaurantsScreen = () => {
@@ -19,7 +21,7 @@ export const RestaurantsScreen = () => {
         <Searchbar />
       </View>
       <View style={styles.list}>
-        <Text> List</Text>
+        <RestaurantInfo />
       </View>
     </SafeAreaView>
   );
@@ -36,5 +38,6 @@ const styles = StyleSheet.create({
   list: {
     padding: 16,
     flex: 1,
+    backgroundColor: "blue",
   },
 });
