@@ -7,8 +7,8 @@ const RestaurantCard = styled(Card)`
   background-color: white;
 `;
 const RestaurantCardCover = styled(Card.Cover)`
-  padding: 4px;
-  background-color: white;
+  padding: ${(props) => props.theme.space[1]};
+  background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 const Title = styled.Text`
   padding: 8px;
