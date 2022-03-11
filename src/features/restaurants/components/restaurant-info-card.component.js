@@ -4,6 +4,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { Card } from "react-native-paper";
 import { SvgXml } from "react-native-svg";
 import star from "../../../../assets/star";
+import open from "../../../../assets/open";
 
 const RestaurantCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.bg.primary};
@@ -30,6 +31,15 @@ const Info = styled.View`
 
 const Rating = styled.View`
   flex-direction: row;
+`;
+const IsOpenContainer = styled.View`
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: ${(props) => props.theme.space[2]};
+`;
+const RatingContainer = styled.View`
+  flex-direction: row;
   padding-top: ${(props) => props.theme.space[1]};
   padding-bottom: ${(props) => props.theme.space[1]};
 `;
@@ -53,11 +63,16 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
       <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Title>{name}</Title>
-        <Rating>
-          {ratingArray.map(() => (
-            <SvgXml xml={star} width={20} height={20} />
-          ))}
-        </Rating>
+        <RatingContainer>
+          <Rating>
+            {ratingArray.map(() => (
+              <SvgXml xml={star} width={20} height={20} />
+            ))}
+          </Rating>
+          <IsOpenContainer>
+            {isOpenNow && <SvgXml xml={open} width={20} height={20} />}
+          </IsOpenContainer>
+        </RatingContainer>
 
         <Address>{address}</Address>
       </Info>
