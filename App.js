@@ -9,6 +9,7 @@ import {
   Oswald_400Regular,
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
+import AppLoading from "expo-app-loading";
 
 export default function App() {
   let [oswaldLoaded] = useOswald({
@@ -18,6 +19,11 @@ export default function App() {
   let [latoLoaded] = useLato({
     Lato_400Regular,
   });
+
+  if (!oswaldLoaded || !latoLoaded) {
+    return <AppLoading />;
+  }
+
   return (
     <>
       <ThemeProvider theme={theme}>
