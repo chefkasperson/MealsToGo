@@ -14,10 +14,7 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import AppLoading from "expo-app-loading";
 import { SafeArea } from "./src/components/utilities/safe-area.component";
-import {
-  RestaurantContextProvider,
-  RestaurantsContextProvider,
-} from "./src/services/restaurants/restaurants.context";
+import { RestaurantsContextProvider } from "./src/services/restaurants/restaurants.context";
 
 const Tab = createMaterialBottomTabNavigator();
 
