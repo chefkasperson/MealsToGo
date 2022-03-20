@@ -35,7 +35,7 @@
       "place_id": "some place id 21",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.4,
@@ -85,7 +85,7 @@
       "place_id": "some place id 22",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "rating": 4.1,
       "reference": "",
@@ -137,7 +137,7 @@
       "place_id": "some place id 23",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "rating": 4.4,
       "reference": "",
@@ -186,7 +186,7 @@
       "place_id": "some place id 24",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -237,7 +237,7 @@
       "place_id": "some place id 25",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.5,
@@ -287,7 +287,7 @@
       "place_id": "some place id 26",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.4,
@@ -337,7 +337,7 @@
       "place_id": "some place id 27",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -387,7 +387,7 @@
       "place_id": "some place id 28",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.5,
@@ -437,7 +437,7 @@
       "place_id": "some place id 29",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -486,7 +486,7 @@
       "place_id": "some place id 30",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "rating": 4,
       "reference": "",
@@ -534,7 +534,7 @@
       "place_id": "some place id 31",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.6,
@@ -582,7 +582,7 @@
       "place_id": "some place id 32",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.4,
@@ -631,7 +631,7 @@
       "place_id": "some place id 33",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.6,
@@ -678,7 +678,7 @@
       "place_id": "some place id 34",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.3,
@@ -726,7 +726,7 @@
       "place_id": "some place id 35",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.2,
@@ -773,7 +773,7 @@
       "place_id": "some place id 36",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.6,
@@ -824,7 +824,7 @@
       "place_id": "some place id 37",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -871,7 +871,7 @@
       "place_id": "some place id 38",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.1,
@@ -921,7 +921,7 @@
       "place_id": "some place id 39",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.5,
@@ -971,7 +971,7 @@
       "place_id": "some place id 40",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 4,
       "rating": 4.5,
